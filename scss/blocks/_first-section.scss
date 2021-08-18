@@ -1,0 +1,215 @@
+@media only screen and (max-width:1028px){
+  .site-main__first-section-paragraph::before{
+   display: none;
+  }
+
+  .site-main__first-section-wrapper{
+    transform: translateX(-95px);
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width:933px){
+  .site-main__first-section-paragraph-mobile{
+   display: none;
+  }
+  .site-main__first-section-link-mobile{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:933px){
+  .site-main__first-section-heading{
+    width: 100%;
+    max-width: 573px;
+    font-family: Space Mono, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    margin: 0 auto;
+  }
+
+  .site-main__first-section-paragraph::after{
+    display: none;
+  }
+
+  .site-main__first-section-link-mobile::before{
+    position: absolute;
+    left: -200px;
+    content: url(/images/first-section-strelka-img.svg);
+  }
+
+  .site-main__heading-list{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .site-main__first-section-paragraph{
+    display: none;
+  }
+  
+  .site-main__first-section-link{
+    display: none;
+  }
+
+  .site-main__first-section-wrapper{
+    width: 100%;
+    max-width: 573px;
+    transform: translateX(1px);
+  }
+
+  .site-main__first-section-link-list{
+    width: 100%;
+    max-width: 179px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width:595px){
+  .site-main__heading-list{
+    text-align: center;
+  }
+
+  .site-main__first-section-heading{
+    transform: scale(0.8);
+  }
+
+  .site-main__first-section-paragraph-mobile{
+    transform: scale(0.8);
+    transform: translateY(-20px);
+    margin: 0;
+   
+  }
+
+  .site-main__first-section-link-list{
+    transform: translateY(-40px);
+    margin: 0 auto;
+  }
+
+  .site-main__first-section-link-mobile::before{
+    position: absolute;
+    left: -350px;
+    content: url(/images/first-section-strelka-img.svg);
+  }
+}
+@media only screen and (max-width:421px){
+  .site-main__first-section{
+    background-image: url(/images/home-first-main-background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 100px;
+    padding: 153px 0 152px 0;
+  }
+  
+  .site-main__heading-list{
+    text-align: center;
+  }
+
+
+  .site-main__first-section-paragraph-mobile{
+    transform: scale(0.8);
+    transform: translateY(-20px);
+    margin: 0;
+  }
+}
+
+.site-main{
+  margin-top: 65px;
+}
+
+.site-main__first-section{
+  background-image: url(/images/home-first-main-background-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 153px 0 152px 0;
+}
+
+.site-main__container{
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-main__first-item{
+  list-style: none;
+}
+
+
+.site-main__first-section-heading{
+  width: 100%;
+  max-width: 500px;
+  font-family: Space Mono, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 55px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+.site-main__first-section-paragraph{
+  width: 100%;
+  max-width: 573px;
+  position: relative;
+  font-family: Lexend Deca, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-bottom: 54px;
+  padding-right: 150px;
+  transform: translateX(94px)
+}
+
+.site-main__first-section-paragraph::before{
+  position: absolute;
+  top: 50%;
+  right: 678px;
+  content: url(/images/first-section-line-img.svg);
+}
+
+.site-main__first-section-paragraph::after{
+  position: absolute;
+  top: 50%;
+  left: 460px;
+  content: url(/images/first-section-strelka-img.svg);
+}
+
+
+
+.site-main__first-section-link{
+  @include repeat-links;
+  margin-left: 94px;
+}
+
+.site-main__first-section-link:hover{
+  @include repeat-links-hover;
+ 
+}
+
+.site-main__first-section-paragraph-mobile{
+  width: 100%;
+  max-width: 573px;
+  position: relative;
+  font-family: Lexend Deca, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-bottom: 54px;
+  text-align: center;
+  margin-top: 24px
+}
+
+.site-main__first-section-link-mobile{
+  @include repeat-links;
+}
+.site-main__first-section-link-mobile:hover{
+  @include repeat-links-hover;
+}
