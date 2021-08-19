@@ -55,41 +55,16 @@
 }
 
 .site-header__links{
-  font-family: Space Mono, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 25px;
-  text-decoration: none;
-  color: #939CAA;
-  margin-left:  60px;
+  @include header-and-footer-link;
 }
 .site-header__links:hover{
-  font-family: Space Mono, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 25px;
-  text-decoration: none;
-  color: #FCB72B;
+  @include header-and-footer-link-hover;
 }
 .site-header__links + .site-header__links{
-  font-family: Space Mono, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 25px;
-  color: #939CAA;
-  margin-left: 32px;
+  @include header-and-footer-link__header-and-footer-link;
 }
 .site-header__links + .site-header__links:hover{
-  font-family: Space Mono, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 25px;
-  color: #FCB72B;
-  margin-left: 32px;
+  @include header-and-footer-link__header-and-footer-link-hover;
 }
 
 .site-header__link-list{

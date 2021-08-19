@@ -1,0 +1,286 @@
+@media only screen and (max-width:960px){
+  .first-section__second-item{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+  }
+  .site-footer__logo-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width:821px){
+  .first-section__first-item{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+  }
+}
+@media only screen and (max-width:821px){
+  .first-section__messengers-list{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    transform: translateX(5px);
+  }
+  .first-section__heading-list{
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .first-section__heading-2{
+    width: 500px;
+    font-family: Space Mono, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+    margin: 0;
+    transform: translateX(-25px);
+  }
+}
+@media only screen and (max-width:535px){
+  .first-section__first-item{
+    transform: scale(0.8);
+    margin-left: -20px;
+  }
+  .first-section__heading-list{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .first-section__heading-2{
+    width: 500px;
+    font-family: Space Mono, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+}
+@media only screen and (max-width:500px){
+  .first-section__heading-2{
+    width: 500px;
+    font-family: Space Mono, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width:450px){
+  .first-section__first-item{
+    transform: scale(0.7);
+    margin-left: -30px;
+  }
+}
+@media only screen and (max-width:395px){
+  .first-section__heading-list{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-left: -30px;
+  }
+}
+@media only screen and (max-width:356px){
+  .first-section__messengers-list-mobile{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    transform: translateX(20px);
+  }
+  .first-section__messengers-list{
+    display: none;
+  }
+  .first-section__heading-list-mobile{
+    display: none;
+  }
+  .first-section__heading-2{
+    width: 500px;
+    font-family: Space Mono, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+    transform: scale(0.9);
+  }
+
+  .first-section__heading-list{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-left: -60px;
+  }
+}
+@media only screen and (min-width:357px){
+ .first-section__messengers-list-mobile{
+   display: none;
+ }
+ .first-section__heading-list-mobile{
+   display: none;
+ }
+}
+@media only screen and (max-width:340px){
+  .first-section__heading-list{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-left: -25px;
+  }
+
+  .first-section__heading-2{
+    width: 400px;
+    font-family: Space Mono, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width:335px){
+  .first-section__heading-list{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-left: -30px;
+  }
+
+  .first-section__heading-2{
+    width: 400px;
+    font-family: Space Mono, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    transform: scale(1);
+  }
+
+  .first-section__messengers-list-mobile{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    transform: translateX(20px);
+  }
+}
+
+.site-footer__first-section{
+  position: relative;
+  width: 100%;
+  background-color: #495567;
+  padding: 102px 0;
+}
+.site-footer__first-section::after{
+  position: absolute;
+  content: url(/images/footer-circles.svg);
+  bottom: 0;
+  right: 0;
+}
+
+.site-footer__container{
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.first-section__first-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.first-section__heading-list{
+  width: 100%;
+  max-width: 435px;
+}
+
+
+.first-section__heading{
+  font-family: Space Mono, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+}
+
+// =============================================================================================================================
+.site-footer__second-section{
+  margin-top: -16px;
+  background-color: #333A44;
+  padding: 35px 0 10px 0;
+}
+
+.site-footer__links{
+  @include header-and-footer-link;
+}
+.site-footer__links:hover{
+  @include header-and-footer-link-hover;
+}
+
+.site-footer__links + .site-footer__links{
+  @include header-and-footer-link__header-and-footer-link;
+}
+.site-footer__links + .site-footer__links:hover{
+  @include header-and-footer-link__header-and-footer-link-hover;
+}
+// =============================================================================================================================
+.first-section__second-item{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.site-footer__logo-list{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.messengers-list{
+  display: flex;
+  align-items: center;
+}
+
+.site-footer__messengers + .site-footer__messengers{
+  margin-left: 24px;
+}
+
+.first-section__messengers-list-mobile{
+  width: 100%;
+  max-width: 256px;
+  margin: 0 auto;
+}

@@ -8,7 +8,8 @@
     background-image: url(/images/second-main-line-mobile.svg);
     background-repeat: no-repeat;
     background-position-x: 117px;
-    margin-top: -15px;
+    background-position-y: -100px;
+    margin-top: -160px;
   }
 
   .site-main__second-item{
@@ -58,8 +59,6 @@
   .site-main__second-section{
     background-image: none;
     background-repeat: no-repeat;
-    background-position-x: 117px;
-    margin-top: -15px;
   }
 
   .site-main__heading-wrappers-2{
@@ -67,14 +66,14 @@
     max-width: 398px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .site-main__heading-wrappers-3{
     width: 100%;
     max-width: 398px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .site-main__heading-wrappers-2:before{
     content: url(/images/home-second-main-enjoy.svg);
@@ -113,8 +112,6 @@
     transform: translateX(-10px);
   }
 }
-
-
 
 .site-main__second-section{
   position: relative;

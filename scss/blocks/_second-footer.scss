@@ -1,0 +1,48 @@
+@media only screen and (max-width:630px){
+  .site-footer__logo{
+    width: 100%;
+    max-width: 108px;
+    height: 29px;
+    margin: 0 auto;
+  }
+  .messengers-list{
+    width: 100%;
+    max-width: 120px;
+    height: 24px;
+    margin: 0 auto;
+  }
+
+}
+@media only screen and (max-width:456px){
+  .site-footer__second-section{
+    margin-top: -16px;
+    background-color: #333A44;
+    padding: 75px 0;
+  }
+
+  .first-section__second-item{
+    width: 100%;
+    max-width: 120px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .site-footer__logo-list{
+    width: 100%;
+    max-width: 108px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 64px;
+  }
+
+  .site-footer__links{
+    margin: 0 auto;
+  }
+  .site-footer__links +  .site-footer__links{
+    margin: 0 auto;
+    padding-top: 16px;
+  }
+  .messengers-list{
+    margin-top: 85px;
+  }
+}

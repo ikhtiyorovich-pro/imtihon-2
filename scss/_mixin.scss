@@ -1,3 +1,41 @@
+@mixin header-and-footer-link{
+  font-family: Space Mono, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #939CAA;
+  margin-left:  60px;
+}
+@mixin header-and-footer-link-hover{
+  font-family: Space Mono, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #FCB72B;
+}
+@mixin header-and-footer-link__header-and-footer-link{
+  font-family: Space Mono, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  margin-left: 32px;
+}
+@mixin header-and-footer-link__header-and-footer-link-hover{
+  font-family: Space Mono, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FCB72B;
+  margin-left: 32px;
+}
+
 @mixin repeat-links{
   width: 230px;
   font-family: Space Mono, sans-serif;
